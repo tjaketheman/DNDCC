@@ -1,0 +1,222 @@
+{
+    "races": {
+    [
+        "dwarf":[
+            "abilityScores": [
+                "strength": ,
+                "dexterity": ,
+                "constitution": ,
+                "intelligence": ,
+                "wisdom": ,
+                "charisma": 
+            ],
+            "darkvision": ,
+            "proficiencies": [
+
+            ],
+            "languages": [
+
+            ],
+            "subraces": [
+
+            ],
+            "abilities": [
+
+            ]
+
+        ],
+        "elf":[
+            "abilityScores": [
+                "strength": ,
+                "dexterity": ,
+                "constitution": ,
+                "intelligence": ,
+                "wisdom": ,
+                "charisma": 
+            ],
+            "darkvision": ,
+            "proficiencies": [
+
+            ],
+            "languages": [
+
+            ],
+            "subraces": [
+
+            ],
+            "abilities": [
+
+            ]
+
+        ],
+        "halfling":[
+            "abilityScores": [
+                "strength": ,
+                "dexterity": ,
+                "constitution": ,
+                "intelligence": ,
+                "wisdom": ,
+                "charisma": 
+            ],
+            "darkvision": ,
+            "proficiencies": [
+
+            ],
+            "languages": [
+
+            ],
+            "subraces": [
+
+            ],
+            "abilities": [
+
+            ]
+
+        ],
+        "human":[
+            "abilityScores": [
+                "strength": ,
+                "dexterity": ,
+                "constitution": ,
+                "intelligence": ,
+                "wisdom": ,
+                "charisma": 
+            ],
+            "darkvision": ,
+            "proficiencies": [
+
+            ],
+            "languages": [
+
+            ],
+            "subraces": [
+
+            ],
+            "abilities": [
+
+            ]
+
+        ],
+        "dragonborn":[
+            "abilityScores": [
+                "strength": ,
+                "dexterity": ,
+                "constitution": ,
+                "intelligence": ,
+                "wisdom": ,
+                "charisma": 
+            ],
+            "darkvision": ,
+            "proficiencies": [
+
+            ],
+            "languages": [
+
+            ],
+            "subraces": [
+
+            ],
+            "abilities": [
+
+            ]
+
+        ],
+        "gnome":[
+            "abilityScores": [
+                "strength": ,
+                "dexterity": ,
+                "constitution": ,
+                "intelligence": ,
+                "wisdom": ,
+                "charisma": 
+            ],
+            "darkvision": ,
+            "proficiencies": [
+
+            ],
+            "languages": [
+
+            ],
+            "subraces": [
+
+            ],
+            "abilities": [
+
+            ]
+
+        ],
+        "halfElf":[
+            "abilityScores": [
+                "strength": ,
+                "dexterity": ,
+                "constitution": ,
+                "intelligence": ,
+                "wisdom": ,
+                "charisma": 
+            ],
+            "darkvision": ,
+            "proficiencies": [
+
+            ],
+            "languages": [
+
+            ],
+            "subraces": [
+
+            ],
+            "abilities": [
+
+            ]
+
+        ],
+        "halfOrc":[
+            "abilityScores": [
+                "strength": ,
+                "dexterity": ,
+                "constitution": ,
+                "intelligence": ,
+                "wisdom": ,
+                "charisma": 
+            ],
+            "darkvision": ,
+            "proficiencies": [
+
+            ],
+            "languages": [
+
+            ],
+            "subraces": [
+
+            ],
+            "abilities": [
+
+            ]
+
+        ],
+        "tiefling":[
+            "abilityScores": [
+                "strength": ,
+                "dexterity": ,
+                "constitution": ,
+                "intelligence": ,
+                "wisdom": ,
+                "charisma": 
+            ],
+            "darkvision": ,
+            "proficiencies": [
+
+            ],
+            "languages": [
+
+            ],
+            "subraces": [
+
+            ],
+            "abilities": [
+
+            ]
+
+        ]
+    ]
+}
+}
