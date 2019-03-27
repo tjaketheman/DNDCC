@@ -1,222 +1,243 @@
-{
+
     "races": {
-    [
-        "dwarf":[
-            "abilityScores": [
+        "dwarf":{
+            "abilityScores": {
+                "constitution": 2,
+            },
+            "speed": 25,
+            "darkvision": true,
+            "proficiencies": {
+                "permanent": [
+                    "battleaxe",
+                    "handaxe",
+                    "throwing hammer",
+                    "warhammer",
+                ],
+                "optional": [
+                "smith's tools",
+                "brewer's supplies",
+                "mason's tools"
+                ]
+            },
+            "skills": [
+
+            ],
+            "languages": [
+                "dwarvish",
+                "common"
+            ],
+            "abilities": {
+                "dwarvenResilience": "Advantage on saving throws against poison and resist poison damage.",
+                "stonecunning": "When a History check is made relating to stonework you are considered proficient and add double History proficiency bonus to the check."
+            },
+            "subraces": {
+                "hilldwarf": {
+                    "abilityScores": {
+                        "wisdom": 1,
+                    },
+                    "abilities": {
+                        "dwarvenToughness": "hit point maximum is increased by 1 and increases by 1 extra at each level."
+                    }
+                },
+                "mountaindwarf": {
+                    "abilityScores": {
+                        "strength": 2,
+                    },
+                    "proficienciesSet": [
+                        "lightArmor",
+                        "mediumArmor"
+                    ]
+                }
+            }
+        },
+        "elf":{
+            "abilityScores": {
+                "dexterity": 2,
+            },
+            "speed": 30,
+            "darkvision": true,
+            "proficiencies": {
+
+            },
+            "skills": [
+                "perception"
+            ],
+            "languages": [
+                "elvish",
+                "common"
+            ],
+            "abilities": {
+                "feyAncestry": "Have advantage on saving throws against being charmed, and you can't be put to sleep with magic.",
+            },
+            "subraces": {
+
+            }
+
+        },
+        "halfling":{
+            "abilityScores": {
                 "strength": ,
                 "dexterity": ,
                 "constitution": ,
                 "intelligence": ,
                 "wisdom": ,
                 "charisma": 
-            ],
+            },
             "darkvision": ,
-            "proficiencies": [
+            "proficiencies": {
 
-            ],
-            "languages": [
+            },
+            "languages": {
 
-            ],
-            "subraces": [
+            },
+            "abilities": {
 
-            ],
-            "abilities": [
+            },
+            "subraces": {
 
-            ]
+            }
 
-        ],
-        "elf":[
-            "abilityScores": [
+        },
+        "human":{
+            "abilityScores": {
                 "strength": ,
                 "dexterity": ,
                 "constitution": ,
                 "intelligence": ,
                 "wisdom": ,
                 "charisma": 
-            ],
+            },
             "darkvision": ,
-            "proficiencies": [
+            "proficiencies": {
 
-            ],
-            "languages": [
+            },
+            "languages": {
 
-            ],
-            "subraces": [
+            },
+            "abilities": {
 
-            ],
-            "abilities": [
+            },
+            "subraces": {
 
-            ]
-
-        ],
-        "halfling":[
-            "abilityScores": [
+            }
+        },
+        "dragonborn":{
+            "abilityScores": {
                 "strength": ,
                 "dexterity": ,
                 "constitution": ,
                 "intelligence": ,
                 "wisdom": ,
                 "charisma": 
-            ],
+            },
             "darkvision": ,
-            "proficiencies": [
+            "proficiencies": {
 
-            ],
-            "languages": [
+            },
+            "languages": {
 
-            ],
-            "subraces": [
+            },
+            "abilities": {
 
-            ],
-            "abilities": [
+            },
+            "subraces": {
 
-            ]
+            }
 
-        ],
-        "human":[
-            "abilityScores": [
+        },
+        "gnome":{
+            "abilityScores": {
                 "strength": ,
                 "dexterity": ,
                 "constitution": ,
                 "intelligence": ,
                 "wisdom": ,
                 "charisma": 
-            ],
+            },
             "darkvision": ,
-            "proficiencies": [
+            "proficiencies": {
 
-            ],
-            "languages": [
+            },
+            "languages": {
 
-            ],
-            "subraces": [
+            },
+            "abilities": {
 
-            ],
-            "abilities": [
+            },
+            "subraces": {
 
-            ]
+            }
 
-        ],
-        "dragonborn":[
-            "abilityScores": [
+        },
+        "halfElf":{
+            "abilityScores": {
                 "strength": ,
                 "dexterity": ,
                 "constitution": ,
                 "intelligence": ,
                 "wisdom": ,
                 "charisma": 
-            ],
+            },
             "darkvision": ,
-            "proficiencies": [
+            "proficiencies": {
 
-            ],
-            "languages": [
+            },
+            "languages": {
 
-            ],
-            "subraces": [
+            },
+            "abilities": {
 
-            ],
-            "abilities": [
+            },
+            "subraces": {
 
-            ]
-
-        ],
-        "gnome":[
-            "abilityScores": [
+            }
+        },
+        "halfOrc":{
+            "abilityScores": {
                 "strength": ,
                 "dexterity": ,
                 "constitution": ,
                 "intelligence": ,
                 "wisdom": ,
                 "charisma": 
-            ],
+            },
             "darkvision": ,
-            "proficiencies": [
+            "proficiencies": {
 
-            ],
-            "languages": [
+            },
+            "languages": {
 
-            ],
-            "subraces": [
+            },
+            "abilities": {
 
-            ],
-            "abilities": [
+            },
+            "subraces": {
 
-            ]
+            }
 
-        ],
-        "halfElf":[
-            "abilityScores": [
+        },
+        "tiefling":{
+            "abilityScores": {
                 "strength": ,
                 "dexterity": ,
                 "constitution": ,
                 "intelligence": ,
                 "wisdom": ,
                 "charisma": 
-            ],
+            },
             "darkvision": ,
-            "proficiencies": [
+            "proficiencies": {
 
-            ],
-            "languages": [
+            },
+            "languages": {
 
-            ],
-            "subraces": [
+            },
+            "abilities": {
 
-            ],
-            "abilities": [
+            },
+            "subraces": {
 
-            ]
+            }
 
-        ],
-        "halfOrc":[
-            "abilityScores": [
-                "strength": ,
-                "dexterity": ,
-                "constitution": ,
-                "intelligence": ,
-                "wisdom": ,
-                "charisma": 
-            ],
-            "darkvision": ,
-            "proficiencies": [
-
-            ],
-            "languages": [
-
-            ],
-            "subraces": [
-
-            ],
-            "abilities": [
-
-            ]
-
-        ],
-        "tiefling":[
-            "abilityScores": [
-                "strength": ,
-                "dexterity": ,
-                "constitution": ,
-                "intelligence": ,
-                "wisdom": ,
-                "charisma": 
-            ],
-            "darkvision": ,
-            "proficiencies": [
-
-            ],
-            "languages": [
-
-            ],
-            "subraces": [
-
-            ],
-            "abilities": [
-
-            ]
-
-        ]
-    ]
-}
-}
+        }
+    }

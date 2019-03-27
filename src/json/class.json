@@ -1,376 +1,376 @@
 {
-"classes": [
-    "barbarian": [
-        "abilityScores": [
+"classes": {
+    "barbarian": {
+        "abilityScores": {
             "strength": ,
             "dexterity": ,
             "constitution": ,
             "intelligence": ,
             "wisdom": ,
             "charisma":
-        ]
+        },
         "hp": ,
         "hitDice": ,
         "proficiencyBonus": ,
-        "proficiencies": [
+        "proficiencies": {
 
-        ],
-        "savingThrows":[
+        },
+        "savingThrows":{
 
-        ],
-        "skills": [
+        },
+        "skills": {
 
-        ],
-        "startingEquipment": [
+        },
+        "startingEquipment": {
 
-        ],
-        "features": [
+        },
+        "features": {
 
-        ],
-        "archetypes": [
+        },
+        "archetypes": {
 
-        ]
-    ],
-        "bard": [
-        "abilityScores": [
+        }
+    },
+        "bard": {
+        "abilityScores": {
             "strength": ,
             "dexterity": ,
             "constitution": ,
             "intelligence": ,
             "wisdom": ,
             "charisma":
-        ]
+        },
         "hp": ,
         "hitDice": ,
         "proficiencyBonus": ,
-        "proficiencies": [
+        "proficiencies": {
 
-        ],
-        "savingThrows":[
+        },
+        "savingThrows":{
 
-        ],
-        "skills": [
+        },
+        "skills": {
 
-        ],
-        "startingEquipment": [
+        },
+        "startingEquipment": {
 
-        ],
-        "features": [
+        },
+        "features": {
 
-        ],
-        "archetypes": [
+        },
+        "archetypes": {
 
-        ]
-    ],
-        "cleric": [
-        "abilityScores": [
+        }
+    },
+        "cleric": {
+        "abilityScores": {
             "strength": ,
             "dexterity": ,
             "constitution": ,
             "intelligence": ,
             "wisdom": ,
             "charisma":
-        ]
+        },
         "hp": ,
         "hitDice": ,
         "proficiencyBonus": ,
-        "proficiencies": [
+        "proficiencies": {
 
-        ],
-        "savingThrows":[
+        },
+        "savingThrows":{
 
-        ],
-        "skills": [
+        },
+        "skills": {
 
-        ],
-        "startingEquipment": [
+        },
+        "startingEquipment": {
 
-        ],
-        "features": [
+        },
+        "features": {
 
-        ],
-        "archetypes": [
+        },
+        "archetypes": {
 
-        ]
-    ],
-        "druid": [
-        "abilityScores": [
+        }
+    },
+        "druid": {
+        "abilityScores": {
             "strength": ,
             "dexterity": ,
             "constitution": ,
             "intelligence": ,
             "wisdom": ,
             "charisma":
-        ]
+        },
         "hp": ,
         "hitDice": ,
         "proficiencyBonus": ,
-        "proficiencies": [
+        "proficiencies": {
 
-        ],
-        "savingThrows":[
+        },
+        "savingThrows":{
 
-        ],
-        "skills": [
+        },
+        "skills": {
 
-        ],
-        "startingEquipment": [
+        },
+        "startingEquipment": {
 
-        ],
-        "features": [
+        },
+        "features": {
 
-        ],
-        "archetypes": [
+        },
+        "archetypes": {
 
-        ]
-    ],
-        "fighter": [
-        "abilityScores": [
+        }
+    },
+        "fighter": {
+        "abilityScores": {
             "strength": ,
             "dexterity": ,
             "constitution": ,
             "intelligence": ,
             "wisdom": ,
             "charisma":
-        ]
+        },
         "hp": ,
         "hitDice": ,
         "proficiencyBonus": ,
-        "proficiencies": [
+        "proficiencies": {
 
-        ],
-        "savingThrows":[
+        },
+        "savingThrows":{
 
-        ],
-        "skills": [
+        },
+        "skills": {
 
-        ],
-        "startingEquipment": [
+        },
+        "startingEquipment": {
 
-        ],
-        "features": [
+        },
+        "features": {
 
-        ],
-        "archetypes": [
+        },
+        "archetypes": {
 
-        ]
-    ],
-        "monk": [
-        "abilityScores": [
+        }
+    },
+        "monk": {
+        "abilityScores": {
             "strength": ,
             "dexterity": ,
             "constitution": ,
             "intelligence": ,
             "wisdom": ,
             "charisma":
-        ]
+        },
         "hp": ,
         "hitDice": ,
         "proficiencyBonus": ,
-        "proficiencies": [
+        "proficiencies": {
 
-        ],
-        "savingThrows":[
+        },
+        "savingThrows":{
 
-        ],
-        "skills": [
+        },
+        "skills": {
 
-        ],
-        "startingEquipment": [
+        },
+        "startingEquipment": {
 
-        ],
-        "features": [
+        },
+        "features": {
 
-        ],
-        "archetypes": [
+        },
+        "archetypes": {
 
-        ]
-    ],
-        "paladin": [
-        "abilityScores": [
+        }
+    },
+        "paladin": {
+        "abilityScores": {
             "strength": ,
             "dexterity": ,
             "constitution": ,
             "intelligence": ,
             "wisdom": ,
             "charisma":
-        ]
+        },
         "hp": ,
         "hitDice": ,
         "proficiencyBonus": ,
-        "proficiencies": [
+        "proficiencies": {
 
-        ],
-        "savingThrows":[
+        },
+        "savingThrows":{
 
-        ],
-        "skills": [
+        },
+        "skills": {
 
-        ],
-        "startingEquipment": [
+        },
+        "startingEquipment": {
 
-        ],
-        "features": [
+        },
+        "features": {
 
-        ],
-        "archetypes": [
+        },
+        "archetypes": {
 
-        ]
-    ],
-        "ranger": [
-        "abilityScores": [
+        }
+    },
+        "ranger": {
+        "abilityScores": {
             "strength": ,
             "dexterity": ,
             "constitution": ,
             "intelligence": ,
             "wisdom": ,
             "charisma":
-        ]
+        },
         "hp": ,
         "hitDice": ,
         "proficiencyBonus": ,
-        "proficiencies": [
+        "proficiencies": {
 
-        ],
-        "savingThrows":[
+        },
+        "savingThrows":{
 
-        ],
-        "skills": [
+        },
+        "skills": {
 
-        ],
-        "startingEquipment": [
+        },
+        "startingEquipment": {
 
-        ],
-        "features": [
+        },
+        "features": {
 
-        ],
-        "archetypes": [
+        },
+        "archetypes": {
 
-        ]
-    ],
-        "rouge": [
-        "abilityScores": [
+        }
+    },
+        "rouge": {
+        "abilityScores": {
             "strength": ,
             "dexterity": ,
             "constitution": ,
             "intelligence": ,
             "wisdom": ,
             "charisma":
-        ]
+        },
         "hp": ,
         "hitDice": ,
         "proficiencyBonus": ,
-        "proficiencies": [
+        "proficiencies": {
 
-        ],
-        "savingThrows":[
+        },
+        "savingThrows":{
 
-        ],
-        "skills": [
+        },
+        "skills": {
 
-        ],
-        "startingEquipment": [
+        },
+        "startingEquipment": {
 
-        ],
-        "features": [
+        },
+        "features": {
 
-        ],
-        "archetypes": [
+        },
+        "archetypes": {
 
-        ]
-    ],
-        "sorcerer": [
-        "abilityScores": [
+        }
+    },
+        "sorcerer": {
+        "abilityScores": {
             "strength": ,
             "dexterity": ,
             "constitution": ,
             "intelligence": ,
             "wisdom": ,
             "charisma":
-        ]
+        },
         "hp": ,
         "hitDice": ,
         "proficiencyBonus": ,
-        "proficiencies": [
+        "proficiencies": {
 
-        ],
-        "savingThrows":[
+        },
+        "savingThrows":{
 
-        ],
-        "skills": [
+        },
+        "skills": {
 
-        ],
-        "startingEquipment": [
+        },
+        "startingEquipment": {
 
-        ],
-        "features": [
+        },
+        "features": {
 
-        ],
-        "archetypes": [
+        },
+        "archetypes": {
 
-        ]
-    ],
-        "warlock": [
-        "abilityScores": [
+        }
+    },
+        "warlock": {
+        "abilityScores": {
             "strength": ,
             "dexterity": ,
             "constitution": ,
             "intelligence": ,
             "wisdom": ,
             "charisma":
-        ]
+        },
         "hp": ,
         "hitDice": ,
         "proficiencyBonus": ,
-        "proficiencies": [
+        "proficiencies": {
 
-        ],
-        "savingThrows":[
+        },
+        "savingThrows":{
 
-        ],
-        "skills": [
+        },
+        "skills": {
 
-        ],
-        "startingEquipment": [
+        },
+        "startingEquipment": {
 
-        ],
-        "features": [
+        },
+        "features": {
 
-        ],
-        "archetypes": [
+        },
+        "archetypes": {
 
-        ]
-    ],
-        "wizard": [
-        "abilityScores": [
+        }
+    },
+        "wizard": {
+        "abilityScores": {
             "strength": ,
             "dexterity": ,
             "constitution": ,
             "intelligence": ,
             "wisdom": ,
             "charisma":
-        ]
+        },
         "hp": ,
         "hitDice": ,
         "proficiencyBonus": ,
-        "proficiencies": [
+        "proficiencies": {
 
-        ],
-        "savingThrows":[
+        },
+        "savingThrows":{
 
-        ],
-        "skills": [
+        },
+        "skills": {
 
-        ],
-        "startingEquipment": [
+        },
+        "startingEquipment": {
 
-        ],
-        "features": [
+        },
+        "features": {
 
-        ],
-        "archetypes": [
+        },
+        "archetypes": {
 
-        ]
-    ]
-]
+        }
+    }
+}
 }
