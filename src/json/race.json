@@ -1,6 +1,7 @@
 
     "races": {
         "dwarf":{
+            "name": "Dwarf",
             "abilityScores": {
                 "constitution": 2,
             },
@@ -8,27 +9,36 @@
             "darkvision": true,
             "proficiencies": {
                 "permanent": [
-                    "battleaxe",
-                    "handaxe",
-                    "throwing hammer",
-                    "warhammer",
+                    "Battleaxe",
+                    "Handaxe",
+                    "Throwing Hammer",
+                    "Warhammer",
                 ],
                 "optional": [
-                "smith's tools",
-                "brewer's supplies",
-                "mason's tools"
+                    "Smith's tools",
+                    "Brewer's supplies",
+                    "Mason's tools"
                 ]
             },
             "skills": [
 
             ],
             "languages": [
-                "dwarvish",
-                "common"
+                "Dwarvish",
+                "Common"
             ],
             "abilities": {
-                "dwarvenResilience": "Advantage on saving throws against poison and resist poison damage.",
-                "stonecunning": "When a History check is made relating to stonework you are considered proficient and add double History proficiency bonus to the check."
+                "dwarvenResilience": {
+                    "name": "Dwarven Resilience",
+                    "effect": "Advantage on saving throws against poison and resist poison damage.",
+                },
+                "stonecunning": {
+                    "name": "Stone Cunning",
+                    "effect": "When a History check is made relating to stonework 
+                    you are considered proficient and double your History proficiency bonus to the check."
+            }
+            },
+            "spells": {
             },
             "subraces": {
                 "hilldwarf": {
@@ -36,21 +46,30 @@
                         "wisdom": 1,
                     },
                     "abilities": {
-                        "dwarvenToughness": "hit point maximum is increased by 1 and increases by 1 extra at each level."
+                        "dwarvenToughness": {
+                            "name": "Dwarven Toughness",
+                            "effect": "hit point maximum is increased by 1 and increases by 1 extra at each level."
                     }
+                }
                 },
                 "mountaindwarf": {
                     "abilityScores": {
                         "strength": 2,
                     },
-                    "proficienciesSet": [
-                        "lightArmor",
-                        "mediumArmor"
+                    "proficiencies": {
+                        "permanent":
+                        [
+                        "Light Armor",
+                        "Medium Armor"
                     ]
                 }
             }
+        }
         },
+
+
         "elf":{
+            "name": "Elf",
             "abilityScores": {
                 "dexterity": 2,
             },
@@ -63,181 +82,524 @@
                 "perception"
             ],
             "languages": [
-                "elvish",
-                "common"
+                "Elvish",
+                "Common"
             ],
             "abilities": {
-                "feyAncestry": "Have advantage on saving throws against being charmed, and you can't be put to sleep with magic.",
+                "feyAncestry": {
+                    "name": "Fey Ancestry",
+                    "effect": "Have advantage on saving throws against being charmed, 
+                    and you can't be put to sleep with magic.",
+                }
+            },
+            "spells": {
             },
             "subraces": {
-
+                "highElves": {
+                    "name": "High Elves",
+                    "abilityScores": {
+                        "intelligence": 2,
+                    },
+                    "proficiencies": {
+                        "permanent": [
+                            "Longsword",
+                            "Shortsword",
+                            "Shorbow",
+                            "Longbow"
+                        ],
+                    },
+                    "spells": {
+                        "cantrip": 1
+                    },
+                    "abilities": {
+                        "extraLanguage": {
+                            "name": "Extra Language",
+                            "effect": "Choose one more language to learn."
+                        } 
+                    }
+                },
+                "woodElves": {
+                    "name": "Wood Elves",
+                    "abilityScores": {
+                        "wisdom": 1,
+                    },
+                    "proficiencies": {
+                        "permanent": [
+                            "Longsword",
+                            "Shortsword",
+                            "Shortbow",
+                            "Longbow"
+                        ],
+                    },
+                    "speed": 35,
+                    "abilities": {
+                        "maskOfTheWild": {
+                            "name": "Mask of the Wild",
+                            "effect": "You can attempt to hide even when lightly obscured 
+                            (mist, foliage, heavy rain)."
+                    }
+                }
+                },
+                "darkElves": {
+                    "name": "Dark Elves",
+                    "abilityScores": {
+                        "charisma": 1,
+                    },
+                    "proficiencies": {
+                        "permanent": [
+                            "Rapier",
+                            "Shortsword",
+                            "Hand Crossbow"
+                        ]
+                    },
+                    "abilities": {
+                        "superiorDarkvision": {
+                            "name": "Superior Darkvision",
+                            "effect": "Your darkvision has a radius of 120 feet"
+                        },
+                        "sunlightSensitivity": {
+                            "name": "Sunlight Sensitivity",
+                            "effect": "You have disadvantage on attack and Perception checks when you, 
+                            or the target, are in direct sunlight."
+                        },
+                        "drowMagic": {
+                            "name": "Drow Magic",
+                            "effect": "At first level you know the Dancing Lights cantrip."
+                        }
+                    }
+                }
             }
-
         },
+
+
         "halfling":{
+            "name": "Halfling",
             "abilityScores": {
-                "strength": ,
-                "dexterity": ,
-                "constitution": ,
-                "intelligence": ,
-                "wisdom": ,
-                "charisma": 
+                "dexterity": 2
             },
-            "darkvision": ,
+            "speed": 25,
+            "darkvision": false,
             "proficiencies": {
+                "permanent": [
 
-            },
-            "languages": {
+                ],
+                "optional": [
 
+                ]
             },
+            "skills": [
+
+            ],
+            "languages": [
+                "Common",
+                "Halfling"
+            ],
             "abilities": {
+                "lucky": {
+                    "name": "Lucky",
+                    "effect": "When you roll a 1, you may reroll the die but must use the new roll"
+                },
+                "brave": {
+                    "name": "Brave",
+                    "effect": "You have advantage on saving throws against being frightened"
+                },
+                "halflingnimbleness": {
+                    "name": "Halfling Nimbleness",
+                    "effect": "You can move through the space of any creature that is larger than you"
+                }
+            },
+            "spells": {
 
             },
             "subraces": {
+                "lightfoot": {
+                    "abilityScores": {
+                        "charisma": 1
+                    },
+                    "abilities": {
+                        "naturallyStealthy": {
+                            "name": "Naturally Stealthy",
+                            "effect": "You can attempt to hide even when only obscured by a creature 
+                            larger than you."
+                        }
+                    }   
+                },
+                "stout": {
+                    "abilityScores": {
+                        "constitution": 1
+                    },
+                    "abilities": {
+                        "stoutResilience": {
+                            "name": "Stout Resilience",
+                            "effect": "Advantage on saving throws against poison, and you resist poison damage."
+                        }
+                    }
+                }
+            },
 
-            }
 
-        },
         "human":{
+            "name": "Human",
             "abilityScores": {
-                "strength": ,
-                "dexterity": ,
-                "constitution": ,
-                "intelligence": ,
-                "wisdom": ,
-                "charisma": 
+                "strength": 1,
+                "dexterity": 1,
+                "constitution": 1,
+                "intelligence": 1,
+                "wisdom": 1,
+                "charisma": 1
             },
-            "darkvision": ,
+            "speed": 30,
+            "darkvision": false,
             "proficiencies": {
+                "permanent": [
 
-            },
-            "languages": {
+                ],
+                "optional": [
 
+                ]
             },
+            "skills": [
+
+            ],
+            "languages": [
+                "Common",
+            ],
             "abilities": {
+                "extraLanguage": {
+                    "name": "Extra Language",
+                    "effect": "Choose one more language to learn."
+                }
+            },
+            "spells": {
 
             },
             "subraces": {
 
             }
         },
+
+
         "dragonborn":{
+            "name": "Dragonborn",
             "abilityScores": {
-                "strength": ,
-                "dexterity": ,
-                "constitution": ,
-                "intelligence": ,
-                "wisdom": ,
-                "charisma": 
+                "strength": 2,
+                "charisma": 1
             },
-            "darkvision": ,
+            "speed": 30,
+            "darkvision": false,
             "proficiencies": {
+                "permanent": [
 
-            },
-            "languages": {
+                ],
+                "optional": [
 
+                ]
             },
+            "skills": [
+
+            ],
+            "languages": [
+                "Common",
+                "Draconic"
+            ],
             "abilities": {
+                "breathWeapon": {
+                    "name": "Breath Weapon",
+                    "effect": "Can use action to exhale your breath type. 
+                     Each creature in the area of effect must make a saving throw determined by type.  
+                     The DC for this saving throw is 8 + your constitution modifier + your proficiency bonus.  
+                     Creatures take 2d6 on a failed save, half on a successful one.  
+                     After use you can't use it again until after a long rest."
+                },
+                "damageResistance": {
+                    "name": "Damage Resistance",
+                    "effect": "You have resistance to the damage type of your ancestry."
+                }
+
+            },
+            "spells": {
 
             },
             "subraces": {
-
+                "black": {
+                    "name": "Black",
+                    "type": "Acid",
+                    "breath": "5 by 30 ft line",
+                    "save": "Dexterity",
+                },
+                "blue": {
+                    "name": "Blue",
+                    "type": "Lightning",
+                    "breath": "5 by 30 ft line",
+                    "save": "Dexterity",
+                },
+                "brass": {
+                    "name": "Brass",
+                    "type": "Fire",
+                    "breath": "5 by 30 ft line",
+                    "save": "Dexterity",
+                },
+                "bronze": {
+                    "name": "Bronze",
+                    "type": "Lightning",
+                    "breath": "5 by 30 ft line",
+                    "save": "Dexterity",
+                },
+                "copper": {
+                    "name": "Copper",
+                    "type": "Acid",
+                    "breath": "5 by 30 ft line",
+                    "save": "Dexterity",
+                },
+                "gold": {
+                    "name": "Gold",
+                    "type": "Fire",
+                    "breath": "15 ft cone",
+                    "save": "Dexterity",
+                },
+                "green": {
+                    "name": "Green",
+                    "type": "Poison",
+                    "breath": "15 ft cone",
+                    "save": "Constitution",
+                },
+                "red": {
+                    "name": "Red",
+                    "type": "Fire",
+                    "breath": "15 ft cone",
+                    "save": "Dexterity",
+                },
+                "silver": {
+                    "name": "Silver",
+                    "type": "Cold",
+                    "breath": "15 ft cone",
+                    "save": "Constitution",
+                },
+                "white": {
+                    "name": "White",
+                    "type": "Cold",
+                    "breath": "15 ft cone",
+                    "save": "Constitution",
+                },
             }
-
         },
+
+
         "gnome":{
+            "name": "Gnome",
             "abilityScores": {
-                "strength": ,
-                "dexterity": ,
-                "constitution": ,
-                "intelligence": ,
-                "wisdom": ,
-                "charisma": 
+                "intelligence": 2,
             },
-            "darkvision": ,
+            "speed": 25,
+            "darkvision": true,
             "proficiencies": {
+                "permanent": [
 
-            },
-            "languages": {
+                ],
+                "optional": [
 
+                ]
             },
+            "skills": [
+
+            ],
+            "languages": [
+                "Common",
+                "Gnomish"
+            ],
             "abilities": {
+                "gnomeCunning": {
+                    "name": "Gnome Cunning",
+                    "effect": "You have advantage on all Intelligence, Wisdom, and Charisma saving throws 
+                    against magic."
+                },
+
+            },
+            "spells": {
 
             },
             "subraces": {
+                "forestGnome": {
+                    "name": "Forest Gnome",
+                    "abilityScores": {
+                        "dexterity": 1,
+                    },
+                    "abilities": {
+                        "naturalIllusionist":{
+                            "name": "Natural Illusionist",
+                            "effect": "You know the minor illusion cantrip.  
+                            Intelligence is your spellcasting ability for it."
+                        },
+                        "speakWithSmallBeasts": {
+                            "name": "Speak With Small Beasts",
+                            "effect": "You can communicate simple thoughts or ideas to small beasts."
+                        }
+                    }
+                },
+                "rockGnome": {
+                    "name": "Rock Gnome",
+                    "abilityScores" {
+                        "constitution": 1,
+                    },
+                    "abilities": {
+                        "artificersLore": {
+                            "name": "Artificer's Lore",
+                            "effect": "When you make a History check related to: magic items, 
+                            alchemical objects, or technological devices, you may 
+                            add your proficiency bonus twice instead of the normal one you apply."
+                        },
+                        "tinker": {
+                            "name": "Tinker",
+                            "effect": "Using your tools you can spend 1 hour and 10gp worth of materials 
+                            to construct a tiny clockwork device (AC = 5, hp = 1).  
+                            The device breaks after 24 hours, unless you spend 1 hour to repair it.  
+                            You can have 3 of these at a time, choose one of the following options for each:
+                            Clockwork Toy-it resembles a person or creature and when placed on the ground 
+                            it moves on each of your turns 5 feet in a random direction, making noises appropriately.
+                            Fire Starter-Produces a small flame that can be use to light things up.  Using it 
+                            requires an action.
+                            Music Box-When opened it plays a single song at moderate volume, it stops playing 
+                            at the end of the song or when it is closed."
+                        }
+                    },
+                    "proficiencies": {
+                        "permanent": [
+                            "artisan's tools"
+                        ]
+                    }
+                }
 
             }
-
         },
+
+
         "halfElf":{
+            "name": "Half-Elf",
             "abilityScores": {
-                "strength": ,
-                "dexterity": ,
-                "constitution": ,
-                "intelligence": ,
-                "wisdom": ,
-                "charisma": 
             },
-            "darkvision": ,
+            "speed": 30,
+            "darkvision": true,
             "proficiencies": {
+                "permanent": [
 
-            },
-            "languages": {
+                ],
+                "optional": [
 
+                ]
             },
+            "skills": [
+
+            ],
+            "languages": [
+                "Common",
+                "Elvish"
+            ],
             "abilities": {
+                "feyAncestry": {
+                    "name": "Fey Ancestry",
+                    "effect": "Have advantage on saving throws against being charmed, 
+                    and you can't be put to sleep with magic.",
+                },
+                "skillVersatility": {
+                    "name": "Skill Versatility",
+                    "effect": "You gain proficiency in 2 skills of your choice."
+                },
+                "extraLanguage": {
+                    "name": "Extra Language",
+                    "effect": "Choose one more language to learn."
+                }
+            },
+            "spells": {
 
             },
             "subraces": {
 
             }
         },
+
+
         "halfOrc":{
+            "name": "Half-Orc",
             "abilityScores": {
-                "strength": ,
-                "dexterity": ,
-                "constitution": ,
-                "intelligence": ,
-                "wisdom": ,
-                "charisma": 
+                "strength": 2,
+                "constitution": 1
             },
-            "darkvision": ,
+            "speed": 30,
+            "darkvision": true,
             "proficiencies": {
+                "permanent": [
 
-            },
-            "languages": {
+                ],
+                "optional": [
 
+                ]
             },
+            "skills": [
+                "Intimidation"
+            ],
+            "languages": [
+                "Common",
+                "Orc"
+            ],
             "abilities": {
+                "relentlessEndurance": {
+                    "name": "Relentless Endurance",
+                    "effect": "When reduced to 0 hitpoints, but not killed, you can go to 1 hit point instead. 
+                    Can be used once per long rest."
+                },
+                "savageAttacks": {
+                    "name": "Savage Attacks",
+                    "effect": "When you critical hit with a melee weapon, you can roll one of the damage dice one
+                    extra time and add it to the total damage."
+                }
+            },
+            "spells": {
 
             },
             "subraces": {
 
             }
-
         },
+
+
         "tiefling":{
+            "name": "Tiefling",
             "abilityScores": {
-                "strength": ,
-                "dexterity": ,
-                "constitution": ,
-                "intelligence": ,
-                "wisdom": ,
-                "charisma": 
+                "intelligence": 1,
+                "charisma": 2
             },
-            "darkvision": ,
+            "speed": 30,
+            "darkvision": true,
             "proficiencies": {
+                "permanent": [
 
-            },
-            "languages": {
+                ],
+                "optional": [
 
+                ]
             },
+            "skills": [
+
+            ],
+            "languages": [
+                "Common",
+                "Infernal"
+            ],
             "abilities": {
+                "hellishResistance": {
+                    "name": "Hellish Resistance",
+                    "effect": "You resist fire damage"
+                },
+                "infernalLegacy": {
+                    "name": "Infernal Legacy",
+                    "effect": "You know the thaumaturgy cantrip, and Charisma is your spellcasting ability for it"
+                }
+
+            },
+            "spells": {
 
             },
             "subraces": {
 
             }
-
-        }
-    }
+        },
